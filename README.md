@@ -1,70 +1,69 @@
-# Getting Started with Create React App
+# Foodify
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+---
+## Overview 
+A food diary is a daily log of what you eat and drink each day. The diary helps you and your doctor understand your eating habits. It can help you realize what you consume. Once you know this, you can make changes to your diet to improve your weight.
 
-## Available Scripts
+---
+## ERD - Entity Relationship Diagram
+![ERD Diagram](/assets/erd.png)
 
-In the project directory, you can run:
+---
+## User Stories 
+* User would be able to create and account with the following name, email, and password. 
+* User would be able to login with the following email and password. 
+* User would be able to create, update, delete, log in, and view  your food items. 
+* User would be able to create, update, delete, log in, and view your meals. 
 
-### `npm start`
+--- 
+## Routes
+| PATH | ROUTE | Description |
+| --- | --- | --- |
+| /user | POST | Signup/Create user |
+| /user/login | POST | Login user |
+| /user | GET | Verify user |
+| /log | POST | Create a meal log|
+| /log | GET | Get all of the users meal log|
+| /log/:log:id | GET | Get log information|
+| /log/:log:id | PUT | Update log information|
+| /log/:log:id | Delete | Delete log information|
+| /fooditem | POST | Create a food information|
+| /fooditem | GET | Get all of the users food information|
+| /fooditem/:fooditem:id | GET | Get food item information|
+| /fooditem/:fooditem:id | PUT | Update food item information|
+| /fooditem/:fooditem:id | Delete | Delete food item information|
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+---
+## Technology
+Backend - PostgreSQL, Flask, SQLAlchemy, Python
+Frontend - React, Javscript, HTML, CSS, MUI, Bootstrap
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+---
+## Component Diagram
+![Component Diagram](assets/component-tree.png)
 
-### `npm test`
+---
+## Wireframes
+![Wireframe](assets/wireframe.png)
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+---
+## MVP - Minimum Viable Product
+- [ ] Sign up, sign in, update, and delete a user
+- [ ] Create, view, update, and delete meal logs 
+- [ ] Create, view, update, and delete a food items
 
-### `npm run build`
+---
+## Stretch Goals
+- [ ] To be able to filter meal logs database
+- [ ] Encrypytion 
+- [ ] Mobile App
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+---
+## Timeline 
+* MVP by the end of Wednesday 1/11/2022
+* Styliing by Thursday 1/12/2022
+* Stretch Goals by Friday 1/14/2022
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
-
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
-
-### `npm run eject`
-
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
-
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
-
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+---
+## Challenges/Obstacles
+- Not too familiar with Python as javascript, but willing to give it a try. 
