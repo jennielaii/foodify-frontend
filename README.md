@@ -35,8 +35,8 @@ A food diary is a daily log of what you eat and drink each day. The diary helps 
 
 ---
 ## Technology
-Backend - PostgreSQL, Flask, SQLAlchemy, Python
-Frontend - React, Javscript, HTML, CSS, MUI, Bootstrap
+* Backend - PostgreSQL, Flask, SQLAlchemy, Python
+* Frontend - React, Javscript, HTML, CSS, MUI, Bootstrap
 
 ---
 ## Component Diagram
