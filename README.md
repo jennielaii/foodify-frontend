@@ -22,16 +22,15 @@ A food diary is a daily log of what you eat and drink each day. The diary helps 
 | /user | POST | Signup/Create user |
 | /user/login | POST | Login user |
 | /user | GET | Verify user |
-| /log | POST | Create a meal log|
-| /log | GET | Get all of the users meal log|
-| /log/:log:id | GET | Get log information|
-| /log/:log:id | PUT | Update log information|
-| /log/:log:id | Delete | Delete log information|
-| /fooditem | POST | Create a food information|
-| /fooditem | GET | Get all of the users food information|
-| /fooditem/:fooditem:id | GET | Get food item information|
-| /fooditem/:fooditem:id | PUT | Update food item information|
-| /fooditem/:fooditem:id | Delete | Delete food item information|
+| /meal| POST | Create a meal log|
+| /meal | GET | Get all of the users meal log|
+| /meal/:id | PUT | Update meal |
+| /meal/:id | Delete | Delete meal |
+| /food | POST | Create a food information|
+| /food | GET | Get all of the users food information|
+| /food/:id | GET | Get food item information|
+| /food/:id | PUT | Update food item information|
+| /food/:id | Delete | Delete food item information|
 
 ---
 ## Technology
