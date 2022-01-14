@@ -1,9 +1,11 @@
-import { Link } from 'react-router-dom'
 
+import { Link } from 'react-router-dom'
 const Navbar = (props) => {
+ 
+
   return (
-    <nav>
-      <Link to="/">Home</Link>
+     <nav>
+      <Link to='/'>Home</Link>
       {' | '}
       { props.user.id ?
         <>
